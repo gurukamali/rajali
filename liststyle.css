@@ -1,0 +1,17 @@
+ul {
+    /* list-style-type: lower-alpha; */
+    list-style-image: url(img/Rosepics.jpg);
+}
+/* a:link{
+    color: brown;
+}
+a:visited{
+    color: yellow;
+}
+a:hover{
+    color: blue;
+}
+a:active{
+    color: aqua;
+} */
+

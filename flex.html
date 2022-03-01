@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex</title>
+    <link rel="stylesheet" href="flex.css">
+<style>
+    .flex-container{
+        display: flex;
+        flex-direction: column;   
+        background-color: aqua;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: flex-end;
+        align-content: flex-start;
+    }
+    .flex-container>div{
+        background-color: blue;
+        margin: 10px;
+        padding: 20px;
+        font-size: 30px;
+        /* flex-grow:30px ; */
+        flex-shrink: 10px;
+        flex-basis: 150px;
+        align-self: center;
+        
+    }
+</style>
+</head>
+<body>
+    <h1>create a flex container</h1>
+    <div class="flex-container">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+    </div>
+    <p> A flexible layout must have a parent element with the <em>display</em></p>
+</body>
+</html>
